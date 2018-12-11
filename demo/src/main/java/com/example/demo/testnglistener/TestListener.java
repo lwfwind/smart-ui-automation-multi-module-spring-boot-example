@@ -2,10 +2,12 @@ package com.example.demo.testnglistener;
 
 import com.qa.framework.testnglistener.ICustomTestListener;
 import org.apache.log4j.Logger;
+import org.springframework.stereotype.Component;
 import org.testng.ISuite;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 
+@Component
 public class TestListener implements ICustomTestListener {
     private static Logger logger = Logger.getLogger(TestListener.class);
 

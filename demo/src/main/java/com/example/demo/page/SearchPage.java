@@ -1,6 +1,6 @@
 package com.example.demo.page;
 
-import com.qa.framework.ioc.annotation.Page;
+import com.qa.framework.Inject.annotation.Page;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
