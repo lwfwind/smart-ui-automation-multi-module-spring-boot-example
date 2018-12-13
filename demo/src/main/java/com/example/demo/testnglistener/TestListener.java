@@ -1,6 +1,6 @@
 package com.example.demo.testnglistener;
 
-import com.qa.framework.testnglistener.ICustomTestListener;
+import com.ui.automation.framework.testnglistener.ICustomTestListener;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Component;
 import org.testng.ISuite;
