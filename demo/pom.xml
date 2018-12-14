@@ -39,7 +39,7 @@
 									<goal>java</goal>
 								</goals>
 								<configuration>
-									<mainClass>com.ui.automation.framework.execution.TestngXmlGenerator</mainClass>
+									<mainClass>com.ui.automation.framework.testng.TestngXmlGenerator</mainClass>
 									<systemProperties>
 									</systemProperties>
 									<arguments>
