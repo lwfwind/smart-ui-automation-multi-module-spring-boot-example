@@ -17,7 +17,6 @@ public class SearchPage {
     private WebElement searchTestBox;
 
     public void searchFor(String text) {
-        driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
         driver.get(url);
         searchTestBox.sendKeys(text);
