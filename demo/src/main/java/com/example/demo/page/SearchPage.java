@@ -15,12 +15,13 @@ public class SearchPage {
     private String url;
     @FindBy(id = "kw")
     private WebElement searchTestBox;
+    @FindBy(id = "su")
+    private WebElement searchBtn;
 
     public void searchFor(String text) {
-        driver.manage().deleteAllCookies();
         driver.get(url);
         searchTestBox.sendKeys(text);
-        searchTestBox.submit();
+        searchBtn.click();
     }
 
     public void verifyResult() {
